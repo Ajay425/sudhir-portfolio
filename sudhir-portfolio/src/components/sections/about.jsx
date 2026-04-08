@@ -1,10 +1,10 @@
 import { TypingAnimation } from "../ui/typing-animation";
-import pfp from "../../assets/IMG_2445.JPG.jpeg";
+import pfp from "../../assets/IMG_2445.JPG";
 
 export const About = () =>  {
     return ( 
-        <div className="w-full h-screen flex flex-col items-center justify-start pt-24 gap-4" style={{fontFamily: "'Inter', sans-serif"}}>
-                <p className="text-sm uppercase tracking-[0.3em] text-[#c49260]/70 font-light">Welcome to my world</p>
+        <div id="about" className="w-full h-screen flex flex-col items-center justify-start pt-24 gap-4" style={{fontFamily: "'Inter', sans-serif"}}>
+                <p className="text-sm uppercase tracking-[0.3em] text-[#c49260]/70 font-light">Welcome to my cinematic world</p>
                 <h1 className="text-7xl font-semibold text-[#c49260] tracking-tight">About Me</h1>
                 <div className="w-16 h-[2px] bg-[#c49260]/40 mt-2"></div>
                 <div className="flex items-center justify-center gap-16 px-16 mt-auto mb-auto">
