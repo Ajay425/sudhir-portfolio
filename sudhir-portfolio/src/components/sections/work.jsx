@@ -74,8 +74,8 @@ export default function Work() {
 
   return (
     <section id="work" className="py-20 px-6 flex flex-col items-center gap-4" style={{ fontFamily: "'Inter', sans-serif" }}>
-      <p className="text-sm uppercase tracking-[0.3em] text-[#c49260]/70 font-light">Featured projects</p>
-      <h2 className="text-7xl font-semibold text-[#c49260] tracking-tight text-center">My Work</h2>
+      <p className="text-xs md:text-sm uppercase tracking-[0.3em] text-[#c49260]/70 font-light">Featured projects</p>
+      <h2 className="text-4xl md:text-7xl font-semibold text-[#c49260] tracking-tight text-center">My Work</h2>
       <div className="w-16 h-[2px] bg-[#c49260]/40 mt-2 mb-10"></div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {categories.map((category) => (

@@ -4,7 +4,7 @@ export default function Card({ image, alt, title, description, tags = [], isNew 
   return (
     <div className="bg-[#0d0906] border border-[#c49260]/20 rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(196,146,96,0.3)] hover:border-[#c49260]/40">
       <div className="p-6 pb-0">
-        <img src={image} alt={alt} className="rounded-xl w-full h-56 object-cover" />
+        <img src={image} alt={alt} className="rounded-xl w-full h-40 md:h-56 object-cover" />
       </div>
       <div className="p-6 pt-4 flex flex-col items-center text-center gap-3">
         <div className="flex items-center justify-center gap-2">
