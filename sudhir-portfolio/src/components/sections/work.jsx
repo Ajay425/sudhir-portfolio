@@ -5,32 +5,47 @@ import {
   SheetContent,
 } from "../ui/sheet";
 import { ExternalLinkIcon } from "lucide-react";
+import AIFilming from "../../assets/AIFilming.PNG";
+import Cinematic from "../../assets/Cinematic.PNG";
+import Color from "../../assets/Color.PNG";
 
 const categories = [
   {
-    image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+    image: AIFilming,
     alt: "AI Filming",
     title: "AI Filming",
     description: "Short films created using AI-assisted tools and workflows.",
     tags: ["AI", "Film"],
-    isNew: true,
+    isNew: false,
     projects: [
       {
-        name: "Project 1",
+        name: "Hanuman AI",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        tools: ["DaVinci Resolve", "After Effects"],
-        driveLink: "https://drive.google.com/example1",
+        tools: ["Google Flow", "Capcut", "Wink"],
+        driveLink: "https://drive.google.com/file/d/1BcrcDz0ggTcxKH-E-E1Omt1nCuoeX21Z/view",
       },
       {
-        name: "Project 2",
+        name: "Theeyam AI",
         description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        tools: ["Premiere Pro", "RunwayML"],
-        driveLink: "https://drive.google.com/example2",
+        tools: ["Google Flow", "Capcut", "Wink"],
+        driveLink: "https://drive.google.com/file/d/1kjbIp9aQZvEe2X0IhWpdHpzLH-Wv4yxA/view?usp=drivesdk",
+      },
+      {
+        name: "Shiva AI",
+        description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        tools: ["Google Flow", "Capcut", "Wink"],
+        driveLink: "https://drive.google.com/file/d/1hU4cn1L8DI0g83tuYllZ7Gp_KIjdRfns/view",
+      },
+      {
+        name: "Bengaluru Anime",
+        description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        tools: ["Google Flow", "Capcut", "Wink"],
+        driveLink: "https://drive.google.com/file/d/1V0d39IjfhscJXvgV0_bofqVKX-1h_5i7/view?usp=drivesdk",
       },
     ],
   },
   {
-    image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+    image: Cinematic,
     alt: "Cinematography",
     title: "Cinematography",
     description: "Visual storytelling through expert camera work and lighting.",
@@ -38,15 +53,33 @@ const categories = [
     isNew: false,
     projects: [
       {
-        name: "Project 1",
+        name: "Ek Din Short Film",
         description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        tools: ["Premiere Pro", "Photoshop"],
-        driveLink: "https://drive.google.com/example3",
+        tools: ["Capcut", "Edits", "Wink"],
+        driveLink: "https://drive.google.com/file/d/1pASsLm_NF1CVcm-Ywu5UeDQqn9pl2U0y/view?usp=drivesdk",
+      },
+      {
+        name: "Temple Cinematography",
+        description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        tools: ["Capcut", "Edits", "Wink"],
+        driveLink: "https://drive.google.com/file/d/1ZLwtosZWMqzCJ3JmrCDGTvsvJtK6CRr9/view?usp=drivesdk",
+      },
+      {
+        name: "Timeline Edit",
+        description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        tools: ["Capcut", "Edits", "Wink"],
+        driveLink: "https://drive.google.com/file/d/1cnGa6grbKIcYvj-Zg4uldCxC-9_mI_RA/view?usp=drivesdk",
+      },
+      {
+        name: "Art of Framing",
+        description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        tools: ["Capcut", "Edits", "Wink"],
+        driveLink: "https://drive.google.com/file/d/1JJn7Axmh-Viqr5noJjsrDLMUH4smgSIG/view?usp=drivesdk",
       },
     ],
   },
   {
-    image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp",
+    image: Color,
     alt: "Colour Grading",
     title: "Colour Grading",
     description: "Professional color science and LUT design for cinematic looks.",
@@ -54,16 +87,28 @@ const categories = [
     isNew: false,
     projects: [
       {
-        name: "Project 1",
+        name: "Dharmasthala Color Grade",
         description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        tools: ["DaVinci Resolve", "FilmConvert"],
-        driveLink: "https://drive.google.com/example4",
+        tools: ["Capcut", "Wink"],
+        driveLink: "https://drive.google.com/file/d/1q61j-RShgskcwhSdLjnls5IIs8dwMOsf/view?usp=drivesdk",
       },
       {
-        name: "Project 2",
+        name: "Movie Color Grade",
         description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
-        tools: ["DaVinci Resolve", "Baselight"],
-        driveLink: "https://drive.google.com/example5",
+        tools: ["Capcut", "Wink"],
+        driveLink: "https://drive.google.com/file/d/1SLxn8VHPYkG0UuSZ5NmvW6Ujy60CUv6n/view?usp=drivesdk5",
+      },
+      {
+        name: "Nature Tone",
+        description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        tools: ["Capcut", "Wink"],
+        driveLink: "https://drive.google.com/file/d/1QmnRQAuDfvy_A9JwWc6QY5Fqeb7ueGhq/view?usp=drivesdk",
+      },
+      {
+        name: "Film Grade",
+        description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        tools: ["Capcut", "Wink"],
+        driveLink: "https://drive.google.com/file/d/16wW3U82m8I8AXOutE6kDxlRiUDBruYp_/view?usp=drivesdk",
       },
     ],
   },
