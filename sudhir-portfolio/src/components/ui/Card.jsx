@@ -11,7 +11,7 @@ export default function Card({ image, alt, title, description, tags = [], isNew 
           <h2 className="text-xl font-semibold text-[#e8c9a0]">{title}</h2>
           {isNew && <span className="text-[10px] px-2 py-0.5 rounded bg-[#c49260] text-[#0d0906] font-bold uppercase tracking-wider">NEW</span>}
         </div>
-        <p className="text-sm text-[#c49260] leading-relaxed">{description}</p>
+        <p className="text-sm text-[#c49260] leading-relaxed" style={{ textWrap: 'balance' }}>{description}</p>
         <div className="flex flex-row items-center justify-center gap-2">
           {tags.map((tag) => (
             <span key={tag} className="text-xs px-3 py-1 rounded-full border border-[#c49260]/30 text-[#c49260]">{tag}</span>

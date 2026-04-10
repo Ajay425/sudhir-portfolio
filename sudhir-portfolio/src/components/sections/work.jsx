@@ -14,31 +14,27 @@ const categories = [
     image: AIFilming,
     alt: "AI Filming",
     title: "AI Filming",
-    description: "Short films created using AI-assisted tools and workflows.",
+    description: "My experience with AI filmmaking using Google Flow started with simple prompts that quickly turned into short video clips, which felt exciting but sometimes inconsistent. As I improved, I learned to refine prompts, control style and storytelling, and combine scenes. Now, I create polished, cinematic videos, using AI as my creative partner.",
     tags: ["AI", "Film"],
     isNew: false,
     projects: [
       {
         name: "Hanuman AI",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         tools: ["Google Flow", "Capcut", "Wink"],
         driveLink: "https://drive.google.com/file/d/1BcrcDz0ggTcxKH-E-E1Omt1nCuoeX21Z/view",
       },
       {
         name: "Theeyam AI",
-        description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         tools: ["Google Flow", "Capcut", "Wink"],
         driveLink: "https://drive.google.com/file/d/1kjbIp9aQZvEe2X0IhWpdHpzLH-Wv4yxA/view?usp=drivesdk",
       },
       {
         name: "Shiva AI",
-        description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         tools: ["Google Flow", "Capcut", "Wink"],
         driveLink: "https://drive.google.com/file/d/1hU4cn1L8DI0g83tuYllZ7Gp_KIjdRfns/view",
       },
       {
         name: "Bengaluru Anime",
-        description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         tools: ["Google Flow", "Capcut", "Wink"],
         driveLink: "https://drive.google.com/file/d/1V0d39IjfhscJXvgV0_bofqVKX-1h_5i7/view?usp=drivesdk",
       },
@@ -48,31 +44,27 @@ const categories = [
     image: Cinematic,
     alt: "Cinematography",
     title: "Cinematography",
-    description: "Visual storytelling through expert camera work and lighting.",
+    description: "Building my skills in real-time cinematography using an iPhone 13  provided hands-on exposure to different shooting techniques, helping me progress toward more controlled and cinematic visuals.",
     tags: ["Camera", "Lighting"],
     isNew: false,
     projects: [
       {
         name: "Ek Din Short Film",
-        description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         tools: ["Capcut", "Edits", "Wink"],
         driveLink: "https://drive.google.com/file/d/1pASsLm_NF1CVcm-Ywu5UeDQqn9pl2U0y/view?usp=drivesdk",
       },
       {
         name: "Temple Cinematography",
-        description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         tools: ["Capcut", "Edits", "Wink"],
         driveLink: "https://drive.google.com/file/d/1ZLwtosZWMqzCJ3JmrCDGTvsvJtK6CRr9/view?usp=drivesdk",
       },
       {
         name: "Timeline Edit",
-        description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         tools: ["Capcut", "Edits", "Wink"],
         driveLink: "https://drive.google.com/file/d/1cnGa6grbKIcYvj-Zg4uldCxC-9_mI_RA/view?usp=drivesdk",
       },
       {
         name: "Art of Framing",
-        description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         tools: ["Capcut", "Edits", "Wink"],
         driveLink: "https://drive.google.com/file/d/1JJn7Axmh-Viqr5noJjsrDLMUH4smgSIG/view?usp=drivesdk",
       },
@@ -82,31 +74,27 @@ const categories = [
     image: Color,
     alt: "Colour Grading",
     title: "Colour Grading",
-    description: "Professional color science and LUT design for cinematic looks.",
+    description: "Building my skills in colour grading with CapCut provided hands-on experience in applying different styles, transforming simple footage into a refined cinematic output.",
     tags: ["Color", "Post"],
     isNew: false,
     projects: [
       {
         name: "Dharmasthala Color Grade",
-        description: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         tools: ["Capcut", "Wink"],
         driveLink: "https://drive.google.com/file/d/1q61j-RShgskcwhSdLjnls5IIs8dwMOsf/view?usp=drivesdk",
       },
       {
         name: "Movie Color Grade",
-        description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
         tools: ["Capcut", "Wink"],
         driveLink: "https://drive.google.com/file/d/1SLxn8VHPYkG0UuSZ5NmvW6Ujy60CUv6n/view?usp=drivesdk5",
       },
       {
         name: "Nature Tone",
-        description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
         tools: ["Capcut", "Wink"],
         driveLink: "https://drive.google.com/file/d/1QmnRQAuDfvy_A9JwWc6QY5Fqeb7ueGhq/view?usp=drivesdk",
       },
       {
         name: "Film Grade",
-        description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
         tools: ["Capcut", "Wink"],
         driveLink: "https://drive.google.com/file/d/16wW3U82m8I8AXOutE6kDxlRiUDBruYp_/view?usp=drivesdk",
       },
@@ -153,7 +141,7 @@ export default function Work() {
                       Drive Link
                     </a>
                   </div>
-                  <p className="text-sm text-[#c49260] leading-relaxed">{project.description}</p>
+                  <p className="text-sm text-[#c49260] leading-relaxed text-justify hyphens-auto">{project.description}</p>
                   <div>
                     <p className="text-xs font-semibold text-[#c49260]/60 uppercase tracking-wider mb-1.5">Tools Used:</p>
                     <div className="flex flex-wrap gap-2">
