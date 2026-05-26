@@ -38,6 +38,13 @@ const categories = [
         tools: ["Google Flow", "Capcut", "Wink"],
         driveLink: "https://drive.google.com/file/d/1V0d39IjfhscJXvgV0_bofqVKX-1h_5i7/view?usp=drivesdk",
       },
+      {
+        name: "Car AI",
+        tools: ["Google Flow", "Capcut", "Wink"],
+        driveLink: "https://drive.google.com/file/d/13ad-UqAccn4kQVeAi-Eh7eMknTVtM86j/view?usp=drive_link",
+      },
+      // add next project here
+
     ],
   },
   {
@@ -68,6 +75,12 @@ const categories = [
         tools: ["Capcut", "Edits", "Wink"],
         driveLink: "https://drive.google.com/file/d/1JJn7Axmh-Viqr5noJjsrDLMUH4smgSIG/view?usp=drivesdk",
       },
+      {
+        name: "Remo Edit",
+        tools: ["Capcut", "Edits", "Wink"],
+        driveLink: "https://drive.google.com/drive/folders/1-hdrHwuFxFh3jPYr8BE-16JzqUCXuwFM",
+      },
+      // add next project here
     ],
   },
   {
@@ -98,6 +111,8 @@ const categories = [
         tools: ["Capcut", "Wink"],
         driveLink: "https://drive.google.com/file/d/16wW3U82m8I8AXOutE6kDxlRiUDBruYp_/view?usp=drivesdk",
       },
+      // add next project here
+      
     ],
   },
 ];
